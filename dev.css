@@ -1,0 +1,91 @@
+*{
+	box-sizing: border-box;
+	
+}
+section{
+	
+	background-color: lightblue;
+	width: 100px;
+	height: 26px;
+	border:  2px solid black;
+	font-size: 1.4em;
+	text-align: center;
+	font-stretch: ultra-expanded;
+	float: right;
+	
+
+
+	
+}
+
+}
+div{
+	width: 100%;
+	border: 4px solid black;
+	margin: 0px 20px 20px 20px;
+	text-align: justify;
+	background-color: darkgrey;
+	
+
+
+	
+}
+h1{
+	text-align: center;
+	font-size: 2.5em;
+	font-family: cursive;
+	font-weight: bolder;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#pink{
+	background-color: lightpink;
+	color: black;
+	font-weight: bolder;
+	
+}
+#maroon{
+	background-color: maroon;
+	color: white;
+	font-weight: bolder;
+	
+}
+#gold{
+	background-color: palegoldenrod;
+	color: black;
+	font-weight: bolder;
+	
+
+}
+@media( min-width:992px ){
+
+	
+
+	.col4{
+		width: 32.33%;
+		float: right;
+		border: 1px solid black;
+		margin: 5px;
+		background-color: darkgrey;
+
+
+		
+	}
+}
+
+@media( min-width: 768px) and ( max-width:991px ){
+	body{
+		background-color: grey;
+	}
+	.col6 div{
+		width: 40%;
+		border: 2px solid;
+
+	}
+	#col6 div{
+		width: 100%;
+		clear: both;
+
+	}
+}
