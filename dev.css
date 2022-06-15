@@ -18,7 +18,7 @@ section{
 }
 div{
 	width: 100%;
-	border: 1px solid black;
+	
 	
 	text-align: justify;
 	background-color: darkgrey;
@@ -26,6 +26,9 @@ div{
 
 
 	
+}
+.col4{
+	border: 1px solid black;
 }
 h1{
 	text-align: center;
@@ -65,8 +68,8 @@ h1{
 }
 #row{
 	max-width: 100%;
-	height:auto;
-	background-color:indigo;
+	height:100%;
+	background-color:transparent;
 	position: relative;
 	
 }
@@ -74,7 +77,7 @@ h1{
 
 @media( min-width: 768px) and ( max-width:991px ){
 	body{
-		background-color: red;
+		background-color: transparent;
 	}
 	.col6 div{
 		
@@ -92,7 +95,7 @@ h1{
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 49.0%;
+	width: 49.5%;
 
 
 }
@@ -100,7 +103,7 @@ h1{
 	position: absolute;
 	top: 0px;
 	right: 0.0px;
-	width: 49%;
+	width: 49.5%;
 	
 	
 
@@ -109,7 +112,7 @@ h1{
 
 
    position: absolute;
-	bottom: -340px;
+	bottom: -335px;
 	
 	width: 100%;
 
@@ -127,14 +130,15 @@ h1{
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 33.10%;
+	width: 33.0%;
 
 
 }
 #beef{
 	position: absolute;
 	top: -5px;
-	left: 33.05%;
+	left: 33.0%;
+	width: 33.2%;
 	margin: 5px;
 	
 
@@ -145,7 +149,7 @@ h1{
    position: absolute;
 	top: 0;
 	right: 0;
-	width: 33%;
+	width: 33.0%;
 
 
 }
