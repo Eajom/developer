@@ -7,22 +7,19 @@ section{
 	background-color: lightblue;
 	width: 100px;
 	height: 26px;
-	border:  2px solid black;
+	border:  1px solid black;
 	font-size: 1.4em;
 	text-align: center;
 	font-stretch: ultra-expanded;
-	float: right;
+	
 	
 
-
-	
-}
 
 }
 div{
 	width: 100%;
-	border: 4px solid black;
-	margin: 0px 20px 20px 20px;
+	border: 1px solid black;
+	
 	text-align: justify;
 	background-color: darkgrey;
 	
@@ -43,49 +40,126 @@ h1{
 	background-color: lightpink;
 	color: black;
 	font-weight: bolder;
+	position: absolute;
+	right: -1px;
 	
 }
 #maroon{
 	background-color: maroon;
 	color: white;
 	font-weight: bolder;
+	position: absolute;
+	right: -1px;
+	
 	
 }
 #gold{
 	background-color: palegoldenrod;
 	color: black;
 	font-weight: bolder;
+	position: absolute;
+	right: -1px;
+	
 	
 
 }
+#row{
+	max-width: 100%;
+	height:auto;
+	background-color:indigo;
+	position: relative;
+	
+}
+
+
+@media( min-width: 768px) and ( max-width:991px ){
+	body{
+		background-color: red;
+	}
+	.col6 div{
+		
+		border: 1px solid;
+
+	}
+	#col6 div{
+		width: 100%;
+		
+
+	}
+
+
+#chicken{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 49.0%;
+
+
+}
+#beef{
+	position: absolute;
+	top: 0px;
+	right: 0.0px;
+	width: 49%;
+	
+	
+
+}
+#sushi{
+
+
+   position: absolute;
+	bottom: -340px;
+	
+	width: 100%;
+
+
+}
+
+}
+
+
+
 @media( min-width:992px ){
 
 	
+#chicken{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 33.10%;
+
+
+}
+#beef{
+	position: absolute;
+	top: -5px;
+	left: 33.05%;
+	margin: 5px;
+	
+
+}
+#sushi{
+
+
+   position: absolute;
+	top: 0;
+	right: 0;
+	width: 33%;
+
+
+}
 
 	.col4{
-		width: 32.33%;
-		float: right;
+		width: 33.33%;
+		
 		border: 1px solid black;
-		margin: 5px;
+		
 		background-color: darkgrey;
+		padding:0;
 
 
 		
 	}
 }
 
-@media( min-width: 768px) and ( max-width:991px ){
-	body{
-		background-color: grey;
-	}
-	.col6 div{
-		width: 40%;
-		border: 2px solid;
-
-	}
-	#col6 div{
-		width: 100%;
-		clear: both;
-
-	}
-}
