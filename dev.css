@@ -11,24 +11,16 @@ section{
 	font-size: 1.4em;
 	text-align: center;
 	font-stretch: ultra-expanded;
-	
-	
-
-
 }
 div{
 	width: 100%;
-	
-	
 	text-align: justify;
-	background-color: darkgrey;
-	
-
-
+	background-color:darkgrey;	
 	
 }
 .col4{
 	border: 1px solid black;
+	margin: 10px;
 }
 h1{
 	text-align: center;
@@ -62,9 +54,6 @@ h1{
 	font-weight: bolder;
 	position: absolute;
 	right: -1px;
-	
-	
-
 }
 #row{
 	max-width: 100%;
@@ -73,7 +62,6 @@ h1{
 	position: relative;
 	
 }
-
 
 @media( min-width: 768px) and ( max-width:991px ){
 	body{
@@ -89,6 +77,11 @@ h1{
 		
 
 	}
+
+.col4{
+	border: 1px solid black;
+	margin: 0px;
+}
 
 
 #chicken{
@@ -142,6 +135,12 @@ h1{
 	margin: 5px;
 	
 
+}
+
+
+.col4{
+	border: 1px solid black;
+	margin: 0px;
 }
 #sushi{
 
