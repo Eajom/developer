@@ -1,168 +1,31 @@
-*{
-	box-sizing: border-box;
-	
+.col-md-6{
+	float: left;
 }
-section{
-	
-	background-color: lightblue;
-	width: 100px;
-	height: 26px;
-	border:  1px solid black;
-	font-size: 1.4em;
-	text-align: center;
-	font-stretch: ultra-expanded;
-}
-div{
-	width: 100%;
-	text-align: justify;
-	background-color:darkgrey;	
-	
-}
-.col4{
+
+.col-md-4{
+	float: left;
 	border: 1px solid black;
-	margin: 10px;
+}
+.arrange{
+	display: inline;
+	float: left;
+	width: 20px;
+}
+.bg-green{
+	background-color: green;
 }
 h1{
 	text-align: center;
-	font-size: 2.5em;
-	font-family: cursive;
-	font-weight: bolder;
-	margin: 0;
-	padding: 0;
-	border: 0;
 }
-#pink{
-	background-color: lightpink;
-	color: black;
-	font-weight: bolder;
-	position: absolute;
-	right: -1px;
-	
+body{
+	font-size: 0.5em;
 }
-#maroon{
-	background-color: maroon;
-	color: white;
-	font-weight: bolder;
-	position: absolute;
-	right: -1px;
-	
-	
-}
-#gold{
-	background-color: palegoldenrod;
-	color: black;
-	font-weight: bolder;
-	position: absolute;
-	right: -1px;
-}
-#row{
-	max-width: 100%;
-	height:100%;
-	background-color:transparent;
-	position: relative;
-	
-}
-
-@media( min-width: 768px) and ( max-width:991px ){
-	body{
-		background-color: transparent;
-	}
-	.col6 div{
-		
-		border: 1px solid;
-
-	}
-	#col6 div{
+@media(max: 992px){
+	.nav-item{
 		width: 100%;
-		
-
-	}
-
-.col4{
-	border: 1px solid black;
-	margin: 0px;
-}
-
-
-#chicken{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 49.5%;
-
-
-}
-#beef{
-	position: absolute;
-	top: 0px;
-	right: 0.0px;
-	width: 49.5%;
-	
-	
-
-}
-#sushi{
-
-
-   position: absolute;
-	bottom: -335px;
-	
-	width: 100%;
-
-
-}
-
-}
-
-
-
-@media( min-width:992px ){
-
-	
-#chicken{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 33.0%;
-
-
-}
-#beef{
-	position: absolute;
-	top: -5px;
-	left: 33.0%;
-	width: 33.2%;
-	margin: 5px;
-	
-
-}
-
-
-.col4{
-	border: 1px solid black;
-	margin: 0px;
-}
-#sushi{
-
-
-   position: absolute;
-	top: 0;
-	right: 0;
-	width: 33.0%;
-
-
-}
-
-	.col4{
-		width: 33.33%;
-		
-		border: 1px solid black;
-		
-		background-color: darkgrey;
-		padding:0;
-
-
-		
+		float: left;
+		display: block;
 	}
 }
 
+}
